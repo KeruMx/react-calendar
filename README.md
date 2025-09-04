@@ -1,10 +1,10 @@
-# @eadev/react-calendar
+# @kerumx/react-calendar
 
 A modern, customizable React calendar component with async support and optimistic updates.
 
-![Version](https://img.shields.io/npm/v/@eadev/react-calendar)
-![License](https://img.shields.io/npm/l/@eadev/react-calendar)
-![Downloads](https://img.shields.io/npm/dm/@eadev/react-calendar)
+![Version](https://img.shields.io/npm/v/@kerumx/react-calendar)
+![License](https://img.shields.io/npm/l/@kerumx/react-calendar)
+![Downloads](https://img.shields.io/npm/dm/@kerumx/react-calendar)
 
 ## ✨ Features
 
@@ -21,18 +21,18 @@ A modern, customizable React calendar component with async support and optimisti
 ## 📦 Installation
 
 ```bash
-npm install @eadev/react-calendar
+npm install @kerumx/react-calendar
 # or
-yarn add @eadev/react-calendar
+yarn add @kerumx/react-calendar
 # or
-pnpm add @eadev/react-calendar
+pnpm add @kerumx/react-calendar
 ```
 
 ## 🚀 Quick Start
 
 ```tsx
-import { Calendar, useEvents } from '@eadev/react-calendar';
-import '@eadev/react-calendar/dist/style.css';
+import { Calendar, useEvents } from '@kerumx/react-calendar';
+import '@kerumx/react-calendar/dist/style.css';
 
 function MyApp() {
   const { events, addEvent, updateEvent, deleteEvent } = useEvents();
@@ -52,7 +52,7 @@ function MyApp() {
 ## 🔧 Advanced Usage with Async Support
 
 ```tsx
-import { Calendar, useEventsEnhanced } from '@eadev/react-calendar';
+import { Calendar, useEventsEnhanced } from '@kerumx/react-calendar';
 
 function MyApp() {
   const {
@@ -167,7 +167,7 @@ interface UseEventsConfig {
 The component comes with default styles. Import the CSS file:
 
 ```tsx
-import '@eadev/react-calendar/dist/style.css';
+import '@kerumx/react-calendar/dist/style.css';
 ```
 
 ### Custom Styling
@@ -233,7 +233,7 @@ MIT © [Emmanuel Anaya, Jeank](https://github.com/KeruMx/react-calendar/blob/mai
 - [Examples](https://github.com/KeruMx/react-calendar/tree/main/examples)
 - [GitHub Issues](https://github.com/KeruMx/react-calendar/issues)
 - [Changelog](https://github.com/KeruMx/react-calendar/blob/main/CHANGELOG.md)
-- [NPM Package](https://www.npmjs.com/package/@eadev/react-calendar)
+- [NPM Package](https://www.npmjs.com/package/@kerumx/react-calendar)
 
 ## 🙏 Acknowledgments
 

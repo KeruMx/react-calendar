@@ -1,0 +1,67 @@
+{
+  "name": "@kerumx/react-calendar",
+  "version": "0.1.0",
+  "description": "A modern, customizable React calendar component with async support and optimistic updates",
+  "main": "dist/calendar.umd.js",
+  "module": "dist/calendar.es.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/react-calendar.css",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite --config vite.config.ts --port 3003",
+    "build": "vite build --config vite.config.ts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "calendar",
+    "datepicker",
+    "events",
+    "schedule",
+    "async",
+    "typescript",
+    "ui-component"
+  ],
+  "author": {
+    "name": "Emmanuel Anaya, Jeank",
+    "email": "kerumx@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeruMx/react-calendar.git"
+  },
+  "homepage": "https://github.com/KeruMx/react-calendar#readme",
+  "bugs": {
+    "url": "https://github.com/KeruMx/react-calendar/issues"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-hover-card": "^1.1.6",
+    "@radix-ui/react-popover": "^1.1.6",
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@tailwindcss/vite": "^4.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.11",
+    "vite-plugin-dts": "^4.5.0"
+  }
+}

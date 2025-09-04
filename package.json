@@ -1,6 +1,6 @@
 {
   "name": "@kerumx/react-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A modern, customizable React calendar component with async support and optimistic updates",
   "main": "dist/calendar.umd.js",
   "module": "dist/calendar.es.js",
